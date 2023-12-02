@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./../style.css"  />
+
+  <title>contato </title>
+</head>
+<body id="corpo__form">
+  <div id="conteiner__texto">
+    <img src="./../asets/img/logo verde final.png" width="15%"  alt="">
+    <h1 id="texto__impacto"> Você está gastando seu tempo com aquilo que você realmente deseja?</h1>
+    <h1 id="texto__pagina_1">CONTATO</h1>
+</div>
+  
+  <div class="cointainer__menu">
+    <nav id="menu__itens">
+      <a  id="menu__itens"  href="index.html"><p id="nav_atual">HOME</p> </a>
+      <a  id="menu__itens" href="problema__solução.html"><p id="nav_atual">PROBLEMA E SOLUÇÃO</p>   </a> 
+      <a id="menu__itens"  href="demostração__solução.html"><p id="nav_atual">DEMOSTRAÇÃO DA SOLUÇÃO</p> </a>
+      <a id="menu__itens"  href="contato.html"><p id="nav_atual">CONTATO</p> </a> 
+   </nav>
+</div>
+  <div class="container">
+    <section class="header">
+      <h2>contato</h2>
+    </section>
+
+    <form id="form" class="form">
+      <div class="form-content">
+        <label for="username">Nome do usuário</label>
+        <input
+          type="text"
+          id="username"
+          placeholder="Digite o nome do usuario..."
+          input type="reset"/>
+        <a>Aqui vai a mensagem de erro....</a>
+      </div>
+
+      <div class="form-content">
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          placeholder="Digite o seu email..."
+          onfocus="this.value='';" />
+        <a>Aqui vai a mensagem de erro....</a>
+      </div>
+
+      <button type="submit">enviar</button>
+
+    </form>
+    <section class="integrantes">
+      <h2 id="titulo-contato">Integrantes</h2>
+      <table>
+        <tr>
+          <th>Nome</th>
+          <th>Foto</th>
+          <th>RM</th>
+        </tr>
+        <tr>
+          <td>Guilherme Santiago da Silva</td>
+          <td><img src="./../asets/img/guilherme-semfundo.ico" alt="Foto1"></td>
+          <td>552321</td>
+        </tr>
+        <tr>
+          <td>Gustavo Gouvêa Soares </td>
+          <td><img id="imagem_2" src="./../asets/img/foto-eu.jpg" width="210px" height="300px" alt="Foto2"></td>
+          <td>553842</td>
+        </tr>
+        
+      </table>
+    </section>
+
+  </div>
+
+  </div>
+  <h3>parceiros </h3>
+  <footer>
+      
+      <div class="rodape">
+          <img  src="./../asets/img/happy vida s fundo.png" width="50%" alt="">
+      </div>
+  </footer>
+  <script src="./../script.js"></script>
+</body>
+</html>
